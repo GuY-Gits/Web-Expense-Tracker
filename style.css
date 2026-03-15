@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0d1117; 
+    color: #c9d1d9;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.container {
+    background: #161b22; 
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #30363d;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+h1, h2, h3 { text-align: center; margin-top: 0; }
+h1 { color: #58a6ff; font-size: 2rem; }
+h2 { color: #e6edf3; font-weight: 300; }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+input, select, button {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #30363d;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #238636; 
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+button:hover { background-color: #2ea043; }
+
+ul { list-style-type: none; padding: 0; }
+
+/* Styling for the list items that JS will create */
+li {
+    background-color: #0d1117;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #30363d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.delete-btn {
+    background-color: #da3633; 
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+
+.delete-btn:hover { background-color: #f85149; }
